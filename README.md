@@ -12,13 +12,17 @@ The objective of this project is to develop a practical power measurement system
 - INA219 current and power sensor
 - Breadboard and jumper wires
 - LED and resistor (test load)
+  (More components according to the requirements may be added as the version of the project advances)
 
 ### Planned Versions and integrations
 
-- **V2 — LCD Integration:** Display measurements on an I²C LCD.
-- **V3 — Load Testing:** Measure and compare readings across different loads.
-- **V4 — Software Improvements:** Add averaging and improved measurement presentation.
-- **V5 — Validation:** Compare readings with a multimeter and document measurement errors.
+## Planned Development
+
+- **Version 2 — LCD Integration:** Display voltage, current, and power readings on an I²C LCD.
+- **Version 3 — Measurement Validation:** Compare INA219 readings against a multimeter and investigate electrical behavior under different loads.
+- **Version 4 — Data Acquisition and Python Analysis:** Transfer Arduino measurements to a computer, store them in CSV format, and use NumPy, Pandas, and Matplotlib for data analysis and visualization.
+- **Version 5 — Solar Cell Characterization:** Collect measurements under varying load conditions and generate current–voltage (I–V) and power–voltage (P–V) curves.
+- **Version 6 — Solar Cell Analysis and Optimization:** Compare experimental results with theoretical solar-cell models, analyze measurement errors, and investigate maximum power point tracking (MPPT).
 
 ## Version History
 
@@ -35,9 +39,9 @@ Power: 14.00 mW
 ```
 
 
-## Authors
+## A project by-
 
 Ritiz Shrestha
-Ronish Bir Bikram Shah
+Ronish Bikram Shah
 
 *This project is under active development. Features will be documented as new versions are completed.*
