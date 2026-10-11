@@ -19,10 +19,9 @@ The objective of this project is to develop a practical power measurement system
 ## Planned Development
 
 - **Version 2 — LCD Integration:** Display voltage, current, and power readings on an I²C LCD.
-- **Version 3 — Measurement Validation:** Compare INA219 readings against a multimeter and investigate electrical behavior under different loads.
-- **Version 4 — Data Acquisition and Python Analysis:** Transfer Arduino measurements to a computer, store them in CSV format, and use NumPy, Pandas, and Matplotlib for data analysis and visualization.
-- **Version 5 — Solar Cell Characterization:** Collect measurements under varying load conditions and generate current–voltage (I–V) and power–voltage (P–V) curves.
-- **Version 6 — Solar Cell Analysis and Optimization:** Compare experimental results with theoretical solar-cell models, analyze measurement errors, and investigate maximum power point tracking (MPPT).
+- **Version 3 — Data Acquisition and Python Analysis:** Transfer Arduino measurements to a computer, store them in CSV format, and use NumPy, Pandas, and Matplotlib for data analysis and visualization.
+- **Version 4 — Solar Cell Characterization:** Collect measurements under varying load conditions and generate current–voltage (I–V) and power–voltage (P–V) curves.
+- **Version 5 — Solar Cell Analysis and Optimization:** Compare experimental results with theoretical solar-cell models, analyze measurement errors, and investigate maximum power point tracking (MPPT).
 
 ## Version History
 
